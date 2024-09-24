@@ -103,7 +103,7 @@ label #cancel{
 #bimage{
     margin-top: -25px;
     
-    background: url(/img/bgimage.jpg);
+    background: url(../img/bgimage.jpg);
     background-position:center;
     background-size:cover;
     
