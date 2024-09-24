@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/log.js" defer></script>
+    <link rel="shortcut icon" href="/img/x.jpg" type="image">
+    <title>Login</title>
+</head>
+<body>
+    <span id="msg"></span>
+   
+    <section>
+        <h2>Login Page</h2>
+    <form action="./home.html" method="post">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                   
+                </td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; font-size: 0.5rem;">
+                    <span id="msgn"></span>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="pass">
+                </td>
+            </tr>
+            <tr></tr>
+                <td colspan="2" style="text-align: center; font-size: 0.5rem;">
+                    <span id="msgp"></span>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <p style="margin-left: 0px;"><a id="notreg"href="./signup.html">SignUp?</p>
+                </td>
+               
+                    <td >
+                        <button style="margin-left: 140px;" id="submit" onclick="formHandle()">Login</button>
+                       
+                        </td>
+                </tr>
+        </table>
+    </form>
+    </section>
+
+</body>
+</html>
